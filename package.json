@@ -1,0 +1,17 @@
+{
+  "name": "hack2skill-task",
+  "version": "1.0.0",
+  "description": "This is a task assignment for Backend Developer Role at Hack2Skill",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "harikanani",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.14"
+  }
+}

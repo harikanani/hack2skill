@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+	</head>
+	<body>
+		<div class="table-wrapper">
+			<table class="fl-table">
+				<thead>
+					<tr>
+						<th>Full Name</th>
+						<th>Team Name</th>
+						<th>email</th>
+						<th>url</th>
+						<th>number</th>
+						<th>city</th>
+					</tr>
+				</thead>
+				<tbody>
+					<% data.forEach(function(item) { %>
+					<tr>
+						<td><%= item.full_name %></td>
+						<td><%= item.teamDetails.team_name %></td>
+						<td><%= item.email %></td>
+						<td><%= item.url %></td>
+						<td><%= item.number %></td>
+						<td><%= item.city %></td>
+					</tr>
+					<% }) %>
+				</tbody>
+
+				<tbody></tbody>
+			</table>
+		</div>
+	</body>
+</html>
